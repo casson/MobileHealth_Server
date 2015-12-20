@@ -27,8 +27,6 @@ public class AddAction extends ActionSupport implements ServletRequestAware,
 	private String phoneNum;
 	protected HttpServletRequest request;
 	protected HttpServletResponse response;
-	// @Autowired
-	// private InfoDAO infoDao;
 	private Map<String, Object> dataMap = new HashMap<String, Object>();
 
 	
